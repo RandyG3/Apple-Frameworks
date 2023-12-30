@@ -15,6 +15,7 @@
 		A4D3F67F2B3FB6EF008BAE90 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F67E2B3FB6EF008BAE90 /* FrameworkDetailView.swift */; };
 		A4D3F6812B3FBB9E008BAE90 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F6802B3FBB9E008BAE90 /* AFButton.swift */; };
 		A4D3F6832B3FC199008BAE90 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F6822B3FC199008BAE90 /* FrameworkGridViewModel.swift */; };
+		A4D3F6872B3FD4E6008BAE90 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F6862B3FD4E6008BAE90 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A4D3F67E2B3FB6EF008BAE90 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		A4D3F6802B3FBB9E008BAE90 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		A4D3F6822B3FC199008BAE90 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		A4D3F6862B3FD4E6008BAE90 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A4D3F6822B3FC199008BAE90 /* FrameworkGridViewModel.swift */,
 				A4D3F67A2B3FA42D008BAE90 /* Framework.swift */,
 				A4D3F6702B3FA29D008BAE90 /* Assets.xcassets */,
+				A4D3F6862B3FD4E6008BAE90 /* SafariView.swift */,
 				A4D3F6722B3FA29D008BAE90 /* Preview Content */,
 			);
 			path = "Apple-Frameworks";
@@ -155,6 +158,7 @@
 				A4D3F6812B3FBB9E008BAE90 /* AFButton.swift in Sources */,
 				A4D3F66D2B3FA29B008BAE90 /* Apple_FrameworksApp.swift in Sources */,
 				A4D3F6832B3FC199008BAE90 /* FrameworkGridViewModel.swift in Sources */,
+				A4D3F6872B3FD4E6008BAE90 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -296,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
