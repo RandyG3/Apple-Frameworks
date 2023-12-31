@@ -14,7 +14,6 @@ struct FrameworkDetailView: View {
     
     var body: some View {
         VStack {
-            XDimissButton(isShowingDetailView: $isShowingDetailView)
     
             Spacer()
             
